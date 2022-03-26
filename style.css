@@ -172,6 +172,7 @@ h1 strong {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: none;
     position: relative;
     bottom: -5rem;
     max-width: 100%;
