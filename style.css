@@ -172,7 +172,6 @@ h1 strong {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(161, 37, 37);
     position: relative;
     bottom: -5rem;
     max-width: 100%;
