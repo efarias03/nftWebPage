@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
 
 * {
@@ -18,7 +18,6 @@ body {
     color: #fff;
     font-family: Orbitron, sans-serif;
     background: #20083B;
-    
 }
 
 h1 {
@@ -34,7 +33,7 @@ h1 strong {
     -webkit-text-fill-color: transparent;
 }
 
-.subtitle p,.nft-card {
+.subtitle p{
     font-family: 'Rajdhani';
     font-style: normal;
     font-weight: 400;
@@ -151,25 +150,52 @@ h1 strong {
     color: #ffffff;
 }
 .nft-card {
-    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+
     background: white;
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 2.75rem;
+    min-width: 25.08rem;
+    max-width: 28.58rem;
+    min-height: 25.08rem;
+    max-height: 30.2rem;
+    padding: 0%;
+}
+.card-image-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(161, 37, 37);
+    position: relative;
+    bottom: -5rem;
+    max-width: 100%;
+    min-width: 100%;
 }
 .card-image {
-    max-width: 25.08rem;
-    min-width: 25.08rem;
+    
     background: rgba( 115, 0, 255, 0.15 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 10.5px );
     -webkit-backdrop-filter: blur( 8.5px );
     border-radius: 3rem;
     border: 2.5px solid rgba( 255, 255, 255, 0.18 );
+    box-shadow: 0px 0.276365rem 6.701875rem rgba(255, 86, 247, 0.829);
 }
 .card-body-content {
+    position: relative;
     display: flex;
     flex-direction: row;
-    top: -6rem;
     flex-wrap: wrap;
-    gap: 0.0009759rem;
+    min-width: 20.25rem;
+    max-width: 26.58rem;
+    padding: 0%;
 
     background: rgba( 115, 0, 255, 0.45 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -185,6 +211,15 @@ h1 strong {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+}
+.card-body-content b {
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10.6579px;
+    line-height: 34px;
+    color: #FFFFFF;
+    opacity: 0.6;
 }
 .card-auction {
     display: flex;
@@ -205,14 +240,40 @@ h1 strong {
     flex-direction: column;
 }
 .ul-auction {
+    list-style: none;
     display: flex;
     flex-direction: row;
     gap: 0.5rem;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
-.li-auction {
-    display: flex;
-    flex-wrap: wrap;
-}
 
+.card-bid-button{
+    width: 0.6rem;
+    background-color: none;
+    padding: 0%;
+}
+.bid-button {
+    background-color: #406AFF;
+    width: 100%;
+    padding: 0.6rem;
+    border-radius: 1rem;
+    border-color: rgba(255, 255, 255, 0.555);
+    border: 1.3px solid;
+    background: linear-gradient(92.23deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
+    box-shadow: 0px 4.26316px 103.382px rgba(255, 86, 246, 0.51);
+    backdrop-filter: blur(204.632px);
+    color: #fff;
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17.0526px;
+    line-height: 22px;
+}
+.nft-card-title {
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 34px;
+}
