@@ -79,24 +79,24 @@
                     <a class="create-nfts" href="#">Create NFT's</a>
                 </div>
 
-                <div class="statistic">
-                    <ul class="statistic-text">
-                        <li class="statistic-text-item">
+                <div class="statistic container-fluid">
+                    <ul class="statistic-text col-6">
+                        <li class="statistic-text-item col">
                             <div class="statistic-text-span">
-                                <span>35M+</span>
-                                <span>Artwork</span>
+                                <span translate="no">35M+</span>
+                                <span><b>Artworks</b></span>
                             </div>
                         </li>
-                        <li class="statistic-text-item">
+                        <li class="statistic-text-item col">
                             <div class="statistic-text-span">
-                                <span>18M+</span>
-                                <span>Auctions</span>
+                                <span translate="no">18M+</span>
+                                <span><b>Auctions</b></span>
                             </div>
                         </li>
-                        <li class="statistic-text-item">
+                        <li class="statistic-text-item col">
                             <div class="statistic-text-span">
-                                <span>500k+</span>
-                                <span>Artists</span>
+                                <span translate="no">500k+</span>
+                                <span><b>Artists</b></span>
                             </div>
                         </li>
                     </ul>
@@ -111,7 +111,7 @@
                     <div class="card-body-content-left col-6 container">
                         <div class="card-presentation">
                             <span class="nft-card-title">3D Abstract Hand</span>
-                            <span>Nome do Usuario</span>
+                            <span>Username</span>
                         </div>
                         <div class="card-price">
                             <span><b>Reserve Price</b></span>

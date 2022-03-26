@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 * {
     margin: 0%;
@@ -44,21 +45,35 @@ h1 strong {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-top: 1.5rem;
+    padding: 0%;
+    padding-top: 2.5rem;
+    min-width: 2.5rem;
+    max-width: 27.57rem;
 }
 
 .statistic-text-item{
     display: flex;
     flex-direction: row;
-    margin: 1.25rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.5rem;
     font-size: 1.5625rem;
+    min-width: 6.9rem;
+    left: -1rem;
 }
 
-.statistic-text-span{
-    display: flex;
-    flex-direction: column;
-    
+.statistic-text-item b{
+    color: #FFFFFF99;
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 1rem;
+    letter-spacing: 0.917972px;
 }
+
+
+
 .main-content {
     display: flex;
     align-items: center;
@@ -165,6 +180,7 @@ h1 strong {
     min-height: 25.08rem;
     max-height: 30.2rem;
     padding: 0%;
+    padding-left: 1.2rem;
 }
 .card-image-div {
     display: flex;
@@ -275,3 +291,4 @@ h1 strong {
     font-size: 1.4rem;
     line-height: 34px;
 }
+
