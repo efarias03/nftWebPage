@@ -79,7 +79,7 @@
                     <a class="create-nfts" href="#">Create NFT's</a>
                 </div>
 
-                <div class="statistic col-sm">
+                <div class="statistic">
                     <ul class="statistic-text">
                         <li class="statistic-text-item">
                             <div class="statistic-text-span">
