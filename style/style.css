@@ -467,17 +467,6 @@ h1 strong {
 
 /* scrollbar */
 
-::-webkit-scrollbar {
-    width: 10px;
-}
-::-webkit-scrollbar-track {
-    background: none;
-}
-
-::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.308);
-}
 /* media query */
 
 
