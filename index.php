@@ -7,8 +7,8 @@
     <title>NFT Marketplace</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="shortcut icon" href="Ethereum-icon-purple_2 1.svg">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="shortcut icon" href="style/images/Ethereum-icon-purple_2 1.svg">
 </head>
 
 <body>
@@ -17,8 +17,8 @@
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
             <div class="container-fluid">
                 <div class="logo">
-                    <a class="navbar-brand" href="#"><img class="navbar-logo" src="Ethereum-icon-purple_2 1.svg"
-                            alt="Logotipo: OceanNFT">OceanNFT</a>
+                    <a class="navbar-brand" href="#"><img class="navbar-logo"
+                            src="style/images/Ethereum-icon-purple_2 1.svg" alt="Logotipo: OceanNFT">OceanNFT</a>
                 </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false"
@@ -76,7 +76,7 @@
 
                 <div class="home-buttons col-sm">
                     <button class="explore-button" type="button">Explore</button>
-                    <a class="create-nfts" href="#">Create NFT's</a>
+                    <a class="create-nfts" href="index2.html">Create NFT's</a>
                 </div>
 
                 <div class="statistic container-fluid">
@@ -102,20 +102,25 @@
                     </ul>
                 </div>
             </div>
+
             <div class="nft-card col-12 col-xs-2 col-sm-8 col-md-8 col-lg-4 justify-content-center">
                 <div class="card-image-div">
-                    <img class="card-image" src="Group_1877-removebg-preview.png" alt="Imagem de capa do card">
+                    <img class="card-image-main-content-nft" src="style/images/Group_1877-removebg-preview.png"
+                        alt="Nft Image">
                 </div>
 
-                <div class="card-body-content container">
+                <div class="card-body-content-main-content-nft container">
                     <div class="card-body-content-left col-6 container">
                         <div class="card-presentation">
                             <span class="nft-card-title">3D Abstract Hand</span>
-                            <span>Username</span>
+                            <span class="userprofile-card"> <img src="style/images/user_profile_green.svg"
+                                    alt="User profile image">
+                                @Username <img src="style/images/verify_icon.svg" alt="verified profile icon"></span>
                         </div>
                         <div class="card-price">
                             <span><b>Reserve Price</b></span>
-                            <span><img src="Ethereum-icon-white_2 1.svg">ETH 9.0 (<b>$20.000</b>)</span>
+                            <span><img src="style/images/Ethereum-icon-white_2 1.svg" alt="Ethereum Coin Icon">ETH 9.0
+                                (<b>$20.000</b>)</span>
                         </div>
                     </div>
                     <div class="card-body-content-right col-6 container">
@@ -145,7 +150,7 @@
                             </ul>
                         </div>
                         <div class="card-bid-button col-12">
-                            <button class="bid-button" type="button">Place Bid</button>
+                            <a href="index2.html"><button class="bid-button" type="button">Place Bid</button></a>
                         </div>
                     </div>
                 </div>
@@ -153,6 +158,223 @@
         </section>
     </main>
 
+    <section id="top-nfts-section">
+        <div class="top-nfts-section">
+            <div class="section-head row">
+                <span class="section-title col-8" href="#">Top NFT's Now</span>
+                <div class="section-link col-3">
+                    <a class="section-link-text" href="index2.html">View All</a>
+                </div>
+            </div>
+            <div class="section-content">
+                <div class="top-nfts-cards container col-12">
+                    <div class="nft-card">
+                        <div class="card-image-div">
+                            <img class="card-image" src="style/images/nft-image-1.png" alt="Nft Image">
+                        </div>
+
+                        <div class="card-body-content container">
+                            <div class="card-body-content-left col-6 container">
+                                <div class="card-presentation">
+                                    <span class="nft-card-title">3D Abstract Hand</span>
+                                    <span class="userprofile-card"> <img src="style/images/user_profile_green.svg"
+                                            alt="User profile image"> @Username <img src="style/images/verify_icon.svg"
+                                            alt="verified profile icon"></span>
+                                </div>
+                                <div class="card-price">
+                                    <span><b>Reserve Price</b></span>
+                                    <span><img src="style/images/Ethereum-icon-white_2 1.svg"
+                                            alt="Ethereum Coin Icon">ETH 9.0
+                                        (<b>$20.000</b>)</span>
+                                </div>
+                            </div>
+                            <div class="card-body-content-right col-6 container">
+                                <div class="card-auction container-fluid justify-content-center col">
+                                    <div class="auction-announce col-12">
+                                        <span><b>Auction Ends in:</b></span>
+                                    </div>
+                                    <ul class="ul-auction">
+                                        <li class="li-auction">
+                                            <div class="span-auction-text">
+                                                <span class="card-auction-text-span">18</span>
+                                                <span class="card-auction-text-span"><b>Hours</b></span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="span-auction-text">
+                                                <span class="card-auction-text-span">20</span>
+                                                <span class="card-auction-text-span"><b>Minutes</b></span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="span-auction-text">
+                                                <span class="card-auction-text-span">10</span>
+                                                <span class="card-auction-text-span"><b>Seconds</b></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-bid-button col-12">
+                                    <a href="index2.html"><button class="bid-button" type="button">Place
+                                            Bid</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nft-card">
+                        <div class="card-image-div">
+                            <img class="card-image" src="style/images/nft-image-2.png" alt="Nft Image">
+                        </div>
+
+                        <div class="card-body-content container">
+                            <div class="card-body-content-left col-6 container">
+                                <div class="card-presentation">
+                                    <span class="nft-card-title">3D Abstract Hand</span>
+                                    <span class="userprofile-card"> <img src="style/images/user_profile_green.svg"
+                                            alt="User profile image"> @Username <img src="style/images/verify_icon.svg"
+                                            alt="verified profile icon"></span>
+                                </div>
+                                <div class="card-price">
+                                    <span><b>Reserve Price</b></span>
+                                    <span><img src="style/images/Ethereum-icon-white_2 1.svg" alt="Ethereum Coin Icon">ETH 9.0
+                                        (<b>$20.000</b>)</span>
+                                </div>
+                            </div>
+                            <div class="card-body-content-right col-6 container">
+                                <div class="card-auction container-fluid justify-content-center col">
+                                    <div class="auction-announce col-12">
+                                        <span><b>Auction Ends in:</b></span>
+                                    </div>
+                                    <ul class="ul-auction">
+                                        <li class="li-auction">
+                                            <div class="span-auction-text">
+                                                <span class="card-auction-text-span">18</span>
+                                                <span class="card-auction-text-span"><b>Hours</b></span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="span-auction-text">
+                                                <span class="card-auction-text-span">20</span>
+                                                <span class="card-auction-text-span"><b>Minutes</b></span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="span-auction-text">
+                                                <span class="card-auction-text-span">10</span>
+                                                <span class="card-auction-text-span"><b>Seconds</b></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-bid-button col-12">
+                                    <a href="index2.html"><button class="bid-button" type="button">Place
+                                            Bid</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nft-card">
+                        <div class="card-image-div">
+                            <img class="card-image" src="style/images/nft-image-3.png" alt="Nft Image">
+                        </div>
+
+                        <div class="card-body-content container">
+                            <div class="card-body-content-left col-6 container">
+                                <div class="card-presentation">
+                                    <span class="nft-card-title">3D Abstract Hand</span>
+                                    <span class="userprofile-card"> <img src="style/images/user_profile_green.svg"
+                                            alt="User profile image"> @Username <img src="style/images/verify_icon.svg"
+                                            alt="verified profile icon"></span>
+                                </div>
+                                <div class="card-price">
+                                    <span><b>Reserve Price</b></span>
+                                    <span><img src="style/images/Ethereum-icon-white_2 1.svg" alt="Ethereum Coin Icon">ETH 9.0
+                                        (<b>$20.000</b>)</span>
+                                </div>
+                            </div>
+                            <div class="card-body-content-right col-6 container">
+                                <div class="card-auction container-fluid justify-content-center col">
+                                    <div class="auction-announce col-12">
+                                        <span><b>Auction Ends in:</b></span>
+                                    </div>
+                                    <ul class="ul-auction">
+                                        <li class="li-auction">
+                                            <div class="span-auction-text">
+                                                <span class="card-auction-text-span">18</span>
+                                                <span class="card-auction-text-span"><b>Hours</b></span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="span-auction-text">
+                                                <span class="card-auction-text-span">20</span>
+                                                <span class="card-auction-text-span"><b>Minutes</b></span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="span-auction-text">
+                                                <span class="card-auction-text-span">10</span>
+                                                <span class="card-auction-text-span"><b>Seconds</b></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-bid-button col-12">
+                                    <a href="index2.html"><button class="bid-button" type="button">Place
+                                            Bid</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="collections">
+        <div class="section-head row">
+            <span class="section-title col-8" href="#">Explore Collections</span>
+            <div class="section-link col-3">
+                <a class="section-link-text" href="index2.html">View All</a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="wrapped-collection row">
+                <div class="wrapped-collection-tags col-md">
+                    <div class="left-collections">
+                        <div class="collection-tags">
+                            <button href="index2.html">Photography</button>
+                        </div>
+                        <div class="collection-tags">
+                            <button href="index2.html">Brands</button>
+                        </div>
+                        <div class="collection-tags">
+                            <button href="index2.html">Art</button>
+                        </div>
+                        <div class="collection-tags">
+                            <button href="index2.html">Music</button>
+                        </div>
+                    </div>
+                    <div class="right-collections">
+                        <div class="collection-tags">
+                            <button href="index2.html">Sports</button>
+                        </div>
+                        <div class="collection-tags">
+                            <button href="index2.html">Collectibles</button>
+                        </div>
+                        <div class="collection-tags">
+                            <button href="index2.html">Utility</button>
+                        </div>
+                        <div class="collection-tags">
+                            <button href="index2.html">Trading Cards</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="collection-image-div col-md">
+                    <img class="collection-image" src="style/images/collection_image.svg">
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <div>
@@ -170,9 +392,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
-    <script src="main/main.js">
-
-    </script>
+    <script src="main/main.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
 </body>
 
