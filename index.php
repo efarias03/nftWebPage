@@ -76,7 +76,7 @@
 
                 <div class="home-buttons col-sm">
                     <button class="explore-button" type="button">Explore</button>
-                    <a class="create-nfts" href="index2.html">Create NFT's</a>
+                    <a class="create-nfts" href="index2.php">Create NFT's</a>
                 </div>
 
                 <div class="statistic container-fluid">
@@ -163,7 +163,7 @@
             <div class="section-head row">
                 <span class="section-title col-8" href="#">Top NFT's Now</span>
                 <div class="section-link col-3">
-                    <a class="section-link-text" href="index2.html">View All</a>
+                    <a class="section-link-text" href="index2.php">View All</a>
                 </div>
             </div>
             <div class="section-content">
@@ -215,7 +215,7 @@
                                     </ul>
                                 </div>
                                 <div class="card-bid-button col-12">
-                                    <a href="index2.html"><button class="bid-button" type="button">Place
+                                    <a href="index2.php"><button class="bid-button" type="button">Place
                                             Bid</button></a>
                                 </div>
                             </div>
@@ -267,7 +267,7 @@
                                     </ul>
                                 </div>
                                 <div class="card-bid-button col-12">
-                                    <a href="index2.html"><button class="bid-button" type="button">Place
+                                    <a href="index2.php"><button class="bid-button" type="button">Place
                                             Bid</button></a>
                                 </div>
                             </div>
@@ -319,7 +319,7 @@
                                     </ul>
                                 </div>
                                 <div class="card-bid-button col-12">
-                                    <a href="index2.html"><button class="bid-button" type="button">Place
+                                    <a href="index2.php"><button class="bid-button" type="button">Place
                                             Bid</button></a>
                                 </div>
                             </div>
@@ -342,30 +342,30 @@
                 <div class="wrapped-collection-tags col-md">
                     <div class="left-collections">
                         <div class="collection-tags">
-                            <button href="index2.html">Photography</button>
+                            <button href="index2.php">Photography</button>
                         </div>
                         <div class="collection-tags">
-                            <button href="index2.html">Brands</button>
+                            <button href="index2.php">Brands</button>
                         </div>
                         <div class="collection-tags">
-                            <button href="index2.html">Art</button>
+                            <button href="index2.php">Art</button>
                         </div>
                         <div class="collection-tags">
-                            <button href="index2.html">Music</button>
+                            <button href="index2.php">Music</button>
                         </div>
                     </div>
                     <div class="right-collections">
                         <div class="collection-tags">
-                            <button href="index2.html">Sports</button>
+                            <button href="index2.php">Sports</button>
                         </div>
                         <div class="collection-tags">
-                            <button href="index2.html">Collectibles</button>
+                            <button href="index2.php">Collectibles</button>
                         </div>
                         <div class="collection-tags">
-                            <button href="index2.html">Utility</button>
+                            <button href="index2.php">Utility</button>
                         </div>
                         <div class="collection-tags">
-                            <button href="index2.html">Trading Cards</button>
+                            <button href="index2.php">Trading Cards</button>
                         </div>
                     </div>
                 </div>
