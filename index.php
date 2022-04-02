@@ -70,13 +70,15 @@
                     </div>
 
                     <div class="subtitle">
-                        <p>The world’s first and largest digital marketplace for crypto collectibles and non- fungible
+                        <p>The world<u>'</u>s first and largest digital marketplace for crypto collectibles and non- fungible
                             tokens
                             (NFTs). </p>
                     </div>
 
                     <div class="home-buttons">
-                        <button class="explore-button" type="button">Explore</button>
+                        <div class="explore-button">
+                            <a type="button">Explore</a>
+                        </div>
                         <a class="create-nfts" href="index2.php">Create NFT's</a>
                     </div>
 
@@ -110,7 +112,7 @@
                             alt="Nft Image">
                     </div>
 
-                    <div class="card-body-content-main-content-nft container">
+                    <div class="card-body-content container">
                         <div class="card-body-content-left col-6 container">
                             <div class="card-presentation">
                                 <span class="nft-card-title">3D Abstract Hand</span>
@@ -165,7 +167,7 @@
     <section id="top-nfts-section">
         <div class="top-nfts-section">
             <div class="section-head">
-                <span class="section-title">Top NFT's Now</span>
+                <span class="section-title" href="#">Top NFT's Now</span>
                 <div class="section-link-div">
                     <a class="section-link-text" href="index2.php">View All</a>
                     <div class="section-link-underline"></div>
@@ -273,7 +275,7 @@
                                     </ul>
                                 </div>
                                 <div class="card-bid-button col-12">
-                                    <a href="index2.php"><button class="bid-button" type="button">Place
+                                    <a href="index2.html"><button class="bid-button" type="button">Place
                                             Bid</button></a>
                                 </div>
                             </div>
@@ -326,7 +328,7 @@
                                     </ul>
                                 </div>
                                 <div class="card-bid-button col-12">
-                                    <a href="index2.php"><button class="bid-button" type="button">Place
+                                    <a href="index2.html"><button class="bid-button" type="button">Place
                                             Bid</button></a>
                                 </div>
                             </div>
@@ -341,7 +343,7 @@
         <div class="section-head">
             <span class="section-title" href="#">Explore Collections</span>
             <div class="section-link-div">
-                <a class="section-link-text" href="index2.html">View All</a>
+                <a class="section-link-text" href="index2.php">View All</a>
                 <div class="section-link-underline"></div>
             </div>
         </div>
@@ -389,7 +391,7 @@
             <div class="section-head">
                 <span class="section-title" href="#">Explore Collections</span>
                 <div class="section-link-div">
-                    <a class="section-link-text" href="index2.php">View All</a>
+                    <a class="section-link-text" href="index2.html">View All</a>
                     <div class="section-link-underline"></div>
                 </div>
             </div>
@@ -426,7 +428,7 @@
                             </div>
                         </div>
                         <div class="follow-creator-div">
-                            <button class="follow-creator-btn"></button>
+                            <button class="follow-creator-btn" type="button">Follow</button>
                         </div>
                     </div>
 
@@ -461,7 +463,7 @@
                             </div>
                         </div>
                         <div class="follow-creator-div">
-                            <button class="follow-creator-btn"></button>
+                            <button class="follow-creator-btn" type="button">Follow</button>
                         </div>
                     </div>
 
@@ -496,7 +498,7 @@
                             </div>
                         </div>
                         <div class="follow-creator-div">
-                            <button class="follow-creator-btn"></button>
+                            <button class="follow-creator-btn" type="button">Follow</button>
                         </div>
                     </div>
                 </div>
