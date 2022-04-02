@@ -380,7 +380,7 @@
                     </div>
                 </div>
                 <div class="collection-image-div col-md">
-                    <img class="collection-image" src="style/images/collection_image.svg">
+                    <img class="collection-image" src="style/images/collection_image.png">
                 </div>
             </div>
         </div>
