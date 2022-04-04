@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
 
 * {
     margin: 0%;
@@ -83,10 +84,13 @@ h1 strong {
     letter-spacing: 0.917972px;
 }
 
-#main-content{
-    display: grid;
-    place-items: center;
-    width: 100vw;
+#main-content,#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem 0rem 0rem 3rem;
+    padding: 1rem;
+    min-width: 35rem;
 }
 
 .main-content {
@@ -96,17 +100,15 @@ h1 strong {
     justify-content: center;
     width: 100%;
     gap: 1.1875rem;
-    padding: 9.9375rem 4rem 0 4rem;
 }
 
 .main-content-text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 100%;
-    height: 100%;
     gap: 1.2rem;
     margin-bottom: 4.8rem;
+    margin-left: 2rem;
 }
 u {
     text-decoration: none;
@@ -140,13 +142,19 @@ u {
     letter-spacing: 0.1875rem;
     
 }
+
+.explore-btn-link {
+    color: #fff;
+    pointer-events: none;
+}
+
 .explore-button {
+    text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
     min-width: 12.614375rem;
     transition-duration: 2s;
-    color: #fff;
     background: linear-gradient(92.23deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
     backdrop-filter: blur(13.2655rem);
     width: 15.614375rem;
@@ -160,6 +168,10 @@ u {
     box-shadow: 0px 0.276365rem 6.701875rem rgba(255, 86, 247, 0.829);
     transition-duration: .35s;
     
+}
+
+.navbar-div {
+    text-align: center;
 }
 
 .navbar {
@@ -338,6 +350,13 @@ u {
     width: 100%;
 }
 
+.section-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 .section-link-div {
     display: flex;
     flex-direction: column;
@@ -377,17 +396,6 @@ u {
     gap: 1.1875rem;
     padding: 7.9375rem 4rem 0 4rem;
     overflow: hidden;
-}
-
-.top-nfts-cards {
-    display: flex;
-    padding: 1rem;
-    width: 100%;
-    overflow-x:auto;
-    scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch;
-    scroll-behavior:smooth;
-    gap: 1rem;
 }
 
 .nft-card {
@@ -491,13 +499,21 @@ u {
     padding: 0%;
 }
 
-.nft-creators {
+.nft-creators,
+.top-nfts-cards {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items:center;
+    max-width: 100%;
+    gap: 1rem;
+}
+
+.slide-presentation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     gap: 1rem;
-
     overflow-x:auto;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
@@ -618,26 +634,55 @@ u {
     border: 2px solid;
 }
 
-#meaning-banner {
-    margin-top: 20rem;
-    padding: 0;
-    position: relative;
-    width: 100vw;
-    height: 200%;
-    display: grid;
-    place-content: center;
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20rem 1rem 0 1.5rem;
+    padding: 1rem;
 }
 
-.meaning-div{
-    border: 2px solid;
-    background: rgba( 255, 255, 255, 0.15 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 20px );
-    -webkit-backdrop-filter: blur( 20px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-    width: 10rem;
-    z-index: 1;
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    gap: 5rem;
+    border-top: 1px solid #ffffff83;
+    border-bottom: 1px solid #ffffff83;
+}
+
+.footer-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer-infos-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.8983px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+.footer-infos {
+    width: 100%;
+    margin: 5rem 0 5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.4764px;
+    line-height: 27px;
+    color: #D9DBE1;
 }
 
 
